@@ -23,6 +23,12 @@ body{
     color: #555;
     background-color: #000000;
 }
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1em;
+    font-weight: 500;
+}
 section{
     padding: 4.8% 0;
     float: left;
@@ -60,10 +66,10 @@ section{
     max-width: 727px;
 }
 .mail{
-    font-size: 16px;
+    font-size: 1em;
     color: #c3c3c3;
     line-height: 18px;
-    font-weight: 600;
+    font-weight: 500;
     position: absolute;
     bottom: 40px;
 }
@@ -128,7 +134,7 @@ section{
 .link--kukuri::after {
 	content: '';
 	position: absolute;
-	height: 2px;
+	height: 1px;
 	width: 100%;
 	top: 50%;
 	margin-top: -1px;
@@ -160,6 +166,12 @@ section{
 
 
 
+
+@media (max-width: 1360px){
+.banner-right img {
+    max-width: 540px;
+}   
+}
 
 
 @media (max-width: 1240px){
@@ -228,6 +240,11 @@ section{
 .banner-left h2 {
     font-size: 24px;
     line-height: 24px;
+}
+.mail {
+    width: 100%;
+    left: 0;
+    text-align: center;
 }
     
 }
