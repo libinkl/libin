@@ -327,9 +327,7 @@ section.about{
 .about-top .abt-left h1 {
     font-size: 2.7em;
 }
-.about .about-contaniner {
-    width: 100%;
-}
+
 }
 
 @media (max-width: 1024px){
